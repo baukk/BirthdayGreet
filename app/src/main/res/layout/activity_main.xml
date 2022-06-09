@@ -28,10 +28,11 @@
         android:gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/entername" />
+        app:layout_constraintTop_toBottomOf="@+id/entername"
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/CreateBirthdayGreetingButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -39,5 +40,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="createbirthdaycard"
         app:layout_constraintTop_toBottomOf="@+id/nameinput" />
 </androidx.constraintlayout.widget.ConstraintLayout>
